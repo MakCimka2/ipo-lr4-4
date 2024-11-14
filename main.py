@@ -1,8 +1,3 @@
-n = 0
-spisok =[1 , n + 1]
-for i in range (0, spisok):
-    if spisok / 5:
-        print("Делится")
-    else:
-        print("Не делится")
-    break
+n = int(input("Введите число: "))
+list1 = [x for x in range(1, n + 1)if x % 5 == 0]
+print(list1) 
